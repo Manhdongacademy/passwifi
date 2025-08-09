@@ -1236,7 +1236,7 @@ class WiFiScanner:
         {yellow}║{reset}              {green}Hack Wifi              {reset}{yellow}║{reset}
         {yellow}║{reset}          Phien ban: {green}2.0.1 mod       {reset}{yellow}║{reset}
         {yellow}║{reset} Tool: {green}  Hackwifi (c) 2025          {reset} {yellow}║{reset}
-        {yellow}║{reset} Tac gia: {green}zalo 0975902076 by manhdong{reset}{yellow}║{reset}
+        {yellow}║{reset} Tac gia: {green} by manhdong               {reset}{yellow}║{reset}
         {yellow}║{reset} github: {green}github.com/manhdongacademy  {reset}{yellow}║{reset}
         {yellow}╚═════════════════════════════════════╝{reset}"""
         print (banner)
