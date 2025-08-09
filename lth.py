@@ -1231,12 +1231,12 @@ class WiFiScanner:
 
     def prompt_network(self) -> str:
         os.system('clear')
-        banner = f"""
+         banner = f"""
         {yellow}╔═════════════════════════════════════╗
         {yellow}║{reset}              {green}Hack Wifi              {reset}{yellow}║{reset}
-        {yellow}║{reset}          Phien ban: {green}2.0.1 mod       {reset}{yellow}║{reset}
-        {yellow}║{reset} Tool: {green}  Hackwifi (c) 2025          {reset} {yellow}║{reset}
-        {yellow}║{reset} Tac gia: {green} by manhdong               {reset}{yellow}║{reset}
+        {yellow}║{reset} Phien ban: {green}2.0.1   mod              {reset}{yellow}║{reset}
+        {yellow}║{reset} Tool: {green}Hackwifi(c) 2025              {reset}{yellow}║{reset}
+        {yellow}║{reset} Tac gia: {green}  by manhdong              {reset}{yellow}║{reset}
         {yellow}║{reset} github: {green}github.com/manhdongacademy  {reset}{yellow}║{reset}
         {yellow}╚═════════════════════════════════════╝{reset}"""
         print (banner)
