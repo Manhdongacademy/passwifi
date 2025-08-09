@@ -1233,10 +1233,10 @@ class WiFiScanner:
         os.system('clear')
         banner = f"""
         {yellow}╔═════════════════════════════════════╗
-        {yellow}║{reset}              {green}Hack Wifi             {reset}{yellow}║{reset}
-        {yellow}║{reset}          Phien ban: {green}2.0.1 mod       {reset}{yellow}║{reset}
-        {yellow}║{reset} Tool: {green} hack Wifi 2.0.1 (c) 2025 rofl0r{reset} {yellow}║{reset}
-        {yellow}║{reset} Tac gia: {green}Vietnamese by manhdongacademy      {reset}{yellow}║{reset}
+        {yellow}║{reset}       {green}Hack Wifi             {reset}{yellow}║{reset}
+        {yellow}║{reset} Phien ban: {green}2.0.1 mod       {reset}{yellow}║{reset}
+        {yellow}║{reset} Tool: {green} hack Wifi 2.0.1 (c) 2025 {reset} {yellow}║{reset}
+        {yellow}║{reset} Tac gia: {green} by manhdongacademy      {reset}{yellow}║{reset}
         {yellow}║{reset} github: {green}github.com/manhdongacademy          {reset}{yellow}║{reset}
         {yellow}╚═════════════════════════════════════╝{reset}"""
         print (banner)
