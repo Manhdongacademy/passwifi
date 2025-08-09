@@ -1232,14 +1232,14 @@ class WiFiScanner:
     def prompt_network(self) -> str:
         os.system('clear')
         banner = f"""
-{yellow}╔═══════════════════════════════════╗
-{yellow}║{reset} {green}Hack wifi{reset}{yellow}{' '*25}║{reset}
-{yellow}║{reset} Phien ban: {green}2.0.1 mod{reset}{yellow}{' '*14}║{reset}
-{yellow}║{reset} Tool: {green}hack Wifi 2.0.1 (c) 2025{reset}{yellow}{' '*4}║{reset}
-{yellow}║{reset} Tac gia: {green}by manhdongacademy{reset}{yellow}{' '*7}║{reset}
-{yellow}║{reset} github: {green}github.com/manhdongacademy{reset}{yellow}{' '*0}║{reset}
-{yellow}╚═══════════════════════════════════╝{reset}"""
-print(banner)
+        {yellow}╔═════════════════════════════════════╗
+        {yellow}║{reset}              {green}Hack Wifi              {reset}{yellow}║{reset}
+        {yellow}║{reset}          Phien ban: {green}2.0.1 mod       {reset}{yellow}║{reset}
+        {yellow}║{reset} Tool: {green}Hackwifi 2.0.2 (c) 2025      {reset} {yellow}║{reset}
+        {yellow}║{reset} Tac gia: {green}           by manhdong     {reset}{yellow}║{reset}
+        {yellow}║{reset} github: {green}github.com/manhdongacademy  {reset}{yellow}║{reset}
+        {yellow}╚═════════════════════════════════════╝{reset}"""
+        print (banner)
 
         networks = self.iw_scanner()
         if not networks:
