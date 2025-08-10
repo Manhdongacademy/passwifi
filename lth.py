@@ -1240,7 +1240,6 @@ class WiFiScanner:
         {yellow}║{reset} github: {green}github.com/manhdongacademy  {reset}{yellow}║{reset}
         {yellow}╚═════════════════════════════════════╝{reset}"""
         print (banner)
-
         networks = self.iw_scanner()
         if not networks:
             print(f'{err} Khong tim thay ket noi WPS.')
